@@ -8,8 +8,8 @@
     <meta name="author" content="Adi Sulaksono" />
     <meta name="copyright" content="Adi Sulaksono" />
 
-    <link rel="preload" as="image" href="./assets/20210209_173309.avif">
-    <link rel="preload" as="image" href="./assets/SAVE_20220823_153648-removebg-preview.png">
+    <link rel="preload" as="image" href="./assets/20210209_173309.jpg">
+    <link rel="preload" as="image" href="./assets/profile.png">
     <link href="./css/tailwind.css" rel="stylesheet">
     <link href="./css/input.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,18 +20,16 @@
     <div class="relative flex-col justify-center pt-7">
         <div class="relative mx-14 max-sm:mx-3 flex flex-row items-center justify-between">
             <a class="w-20 rounded-full hover:animate-pulse" href="https://adislksn.github.io">
-                <img class="w-20 rounded-full" src="./assets/20210209_173309.avif" alt="🧛🏻">
+                <img class="w-20 rounded-full" src="./assets/20210209_173309.jpg" alt="🧛🏻">
             </a>
-            <a href="#sosmed-footer">
-                <button class="relative inline-flex items-center justify-center p-0.5 mb-2 text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-300 to-cyan-300 group-hover:from-cyan-300 group-hover:to-cyan-300 hover:text-slate-900 dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
-                    <p class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-slate-800 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-slate-200 hover:text-slate-800 font-poppins">
-                        Work together?
-                    </p>
-                </button>
-            </a>
+            <button id="myBtn" class="relative inline-flex items-center justify-center p-0.5 mb-2 text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-300 to-cyan-300 group-hover:from-cyan-300 group-hover:to-cyan-300 hover:text-slate-900 dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+                <p class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-slate-800 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 text-slate-200 hover:text-slate-800 font-poppins">
+                    Work together?
+                </p>
+            </button>
         </div>
 
-        <div class="relative flex flex-col items-center mx-10 max-sm:mx-4 pt-3 max-sm:pt-8">
+        <div class="relative flex flex-col items-center mx-10 max-sm:mx-4 pt-3 max-sm:pt-8 max-[450px]:pb-8">
             <h1 class="text-cyan-300 text-5xl max-sm:text-4xl font-batuphat" data-aos="fade-up">
                 Hello there👋🏻
             </h1>
@@ -45,7 +43,7 @@
                     </p>
                 </div>
                 <div data-aos="fade-left">
-                    <img class="reflect-img" src="./assets/SAVE_20220823_153648-removebg-preview.png" alt="🧛🏻">
+                    <img class="max-[450px]:rounded-full max-[450px]:bg-zinc-300 reflect-img " src="./assets/profile.png" alt="🧛🏻">
                 </div>
             </div>
         </div>    
@@ -132,7 +130,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="relative flex flex-col max-[500px]:w-44 max-[500px]:h-44 w-56 h-56" data-aos="zoom-out-up">
+                <div class="relative displ flex flex-col max-[500px]:w-44 max-[500px]:h-44 w-56 h-56" data-aos="zoom-out-up">
                     <a href="https://roastingmen.com/" target="_blank" class="flex flex-col max-[500px]:w-44 max-[500px]:h-44 w-56 h-56 justify-center items-center card-block no-underline shadow">
                         <img src="./assets/Roastingmen.png" class="mt-3 px-1 object-cover w-52 h-32 max-sm:w-40 max-sm:h-20 shadow" alt="🖼️">
                         <div class="card-body flex flex-col">
@@ -142,9 +140,9 @@
                 </div>
                 <div class="relative flex flex-col max-[500px]:w-44 max-[500px]:h-44 w-56 h-56" data-aos="zoom-out-down">
                     <a href="https://github.com/adislksn/FastLink-Expo" target="_blank" class="flex flex-col max-[500px]:w-44 max-[500px]:h-44 w-56 h-56 justify-center items-center card-block no-underline shadow">
-                        <img src="./assets/Screenshot_com.fastlink.jpg" class="mt-3 px-1 object-cover w-52 h-32 max-sm:w-40 max-sm:h-20 shadow" alt="🖼️">
+                        <img src="./assets/FastLink.png" class="mt-3 px-1 object-cover w-52 h-32 max-sm:w-40 max-sm:h-20 shadow" alt="🖼️">
                         <div class="card-body flex flex-col">
-                            <h5 class="card-title text-center text-cyan-300 font-bold">Mobile Apps</h5>
+                            <h5 class="card-title text-center text-cyan-300 font-bold">FastLink Mobile Apps</h5>
                         </div>
                     </a>
                 </div>
@@ -153,7 +151,7 @@
                     <a href="https://www.figma.com/proto/sHc3sqPtuJ7BrGpKigK2Is/bangun.id-v-2?node-id=666%3A1298&scaling=scale-down&page-id=527%3A7&starting-point-node-id=666%3A1298" target="_blank" class="flex flex-col max-[500px]:w-44 max-[500px]:h-44 w-56 h-56 justify-center items-center card-block no-underline shadow">
                         <img src="./assets/Bangun-id.png" class="mt-3 px-1 object-cover w-52 h-32 max-sm:w-40 max-sm:h-20 shadow" alt="🖼️">
                         <div class="card-body flex flex-col">
-                            <h5 class="card-title text-center text-cyan-300 font-bold">TOP 200 Mockup IDT by BUMN</h5>
+                            <h5 class="card-title text-center text-cyan-300 font-bold">TOP 200 IDT by BUMN</h5>
                         </div>
                     </a>
                 </div>
@@ -162,6 +160,14 @@
                         <img src="./assets/PresLab.png" class="mt-3 px-1 object-cover w-52 h-32 max-sm:w-40 max-sm:h-20 shadow" alt="🖼️">
                         <div class="card-body flex flex-col">
                             <h5 class="card-title text-center text-cyan-300 font-bold">Preslab Mockup SKPL</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="relative flex flex-col max-[500px]:w-44 max-[500px]:h-44 w-56 h-56" data-aos="zoom-out-down">
+                    <a href="https://github.com/adislksn/finally" target="_blank" class="flex flex-col max-[500px]:w-44 max-[500px]:h-44 w-56 h-56 justify-center items-center card-block no-underline shadow">
+                        <img src="./assets/Finally.png" class="mt-3 px-1 object-cover w-52 h-32 max-sm:w-40 max-sm:h-20 shadow" alt="🖼️">
+                        <div class="card-body flex flex-col">
+                            <h5 class="card-title text-center text-cyan-300 font-bold">Finally Mobile Apps</h5>
                         </div>
                     </a>
                 </div>
@@ -175,6 +181,19 @@
             </h2>
             <div class="py-4 pl-36 max-sm:pl-0 max-sm:self-center">
                 <ol class="relative border-l border-cyan-800">                  
+                    <li class="mb-10 ml-4">
+                        <div class="absolute w-3 h-3 bg-cyan-200 rounded-full mt-1.5 -left-1.5 border border-cyan-300"></div>
+                        <time class="mb-1 text-sm font-normal leading-none text-slate-700">May 2022</time>
+                        <h3 class="text-lg font-semibold text-gray-900">Head of IT Division Pemira</h3>
+                        <p class="mb-4 text-base font-normal text-slate-800">Campus Environment Introduction Program</p>
+                        <a href="#" target="_blank" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-cyan-600 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-cyan-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
+                            View Project 
+                            <svg class="ml-2 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
                     <li class="mb-10 ml-4">
                         <div class="absolute w-3 h-3 bg-cyan-200 rounded-full mt-1.5 -left-1.5 border border-cyan-300"></div>
                         <time class="mb-1 text-sm font-normal leading-none text-slate-700">May 2022</time>
@@ -215,7 +234,7 @@
         <h2 class="text-cyan-300 font-batuphat text-3xl max-sm:text-1xl py-5 text-center" data-aos="fade-up">
             My Hobbies
         </h2>
-        <div class="image-custom relative" data-aos="fade-down">
+        <div class="image-custom relative w-4/5 grid grid-cols-9 max-sm:grid-cols-3 max-sm:w-3/4 bg-slate-800" data-aos="fade-down">
             <img class="border-slate-800 border" src="assets/photo_2022-01-25_02-41-36.jpg" alt="🖼️">
             <img class="border-slate-800 border" src="assets/photo_2022-01-25_02-41-41.jpg" alt="🖼️">
             <img class="border-slate-800 border" src="assets/photo_2022-01-25_02-41-47.jpg" alt="🖼️">
@@ -227,6 +246,34 @@
             <img class="border-slate-800 border" src="assets/photo_2022-01-26_23-29-07.jpg" alt="🖼️">
         </div>
     </div>
+
+    <div class="modal fixed hidden bottom-0 inset-x-0 pb-4 items-center justify-center w-max" id="myModal">
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg shadow-cyan-400 transform transition-all w-max">
+            <div class="bg-cyan-300 px-4 pt-4 pb-4 rounded-t-lg">
+                <h2 class="text-lg font-semibold">Reach me at here</h2>
+            </div>
+        <div class="px-4 py-4">
+            <div class="content-between items-center flex">
+                <a class="px-2" href="https://www.linkedin.com/in/adislksn/" target="_blank">
+                    <i class="fa-brands fa-linkedin text-4xl hover:text-zinc-600 cursor-pointer" alt="linkedin"></i>
+                </a>
+                <a class="px-2" href="https://www.instagram.com/in/adislksn/" target="_blank">
+                    <i class="fa-brands fa-instagram text-4xl hover:text-zinc-600 cursor-pointer" alt="instagram"></i>
+                </a>
+                <a class="px-2" href="https://www.github.com/in/adislksn/" target="_blank">
+                    <i class="fa-brands fa-square-github text-4xl hover:text-zinc-600 cursor-pointer" alt="Github"></i>
+                </a>
+                <a class="px-2" href="mailto:adislksn@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope text-4xl hover:text-zinc-600 cursor-pointer" alt="Gmail"></i>
+                </a>
+            </div>
+        </div>
+            <button class="close text-slate-800 font-bold py-2 px-4 rounded-lg hover:bg-cyan-300 hover:shadow-md hover:shadow-cyan-600 focus:outline-none focus:shadow-outline-blue active:bg-zinc-300">
+                Close
+            </button>
+        </div>
+        <div id="myBackdrop" class="opacity-25 fixed inset-0 -z-10 bg-black"></div>
+        </div>
 
     <footer class="bottom-0 bg-cyan-600 relative flex flex-row items-center px-10 h-24 justify-between" id="sosmed-footer">
         <div>
@@ -243,8 +290,8 @@
                 <i class="fa-solid fa-envelope text-4xl hover:text-white cursor-pointer" alt="Gmail"></i>
             </a>
         </div>
-        <div class="">
-            <svg class="self-end" width="40" height="24" viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="hover:text-white cursor-pointer">
+            <svg class="self-end" width="40" height="24" viewBox="0 0 21 13" fill="black" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.271 3.90633C16.4898 3.63728 15.8002 3.15351 15.2814 2.5105C14.7096 1.79408 13.9815 1.21793 13.1528 0.82615C12.3241 0.434366 11.4167 0.237319 10.5002 0.250084C9.26721 0.162767 8.0466 0.543048 7.08142 1.3152C6.11623 2.08734 5.47729 3.1947 5.29183 4.41675C5.65711 3.80555 6.20689 3.32599 6.86203 3.04708C7.51718 2.76818 8.24391 2.70431 8.93766 2.86467C9.71755 3.14155 10.406 3.62814 10.9272 4.27092C11.5022 4.98162 12.2317 5.55181 13.0602 5.93809C13.8888 6.32438 14.7945 6.51659 15.7085 6.50008C16.9414 6.5874 18.1621 6.20712 19.1272 5.43497C20.0924 4.66282 20.7314 3.55546 20.9168 2.33342C20.5582 2.95193 20.0102 3.43873 19.3537 3.72196C18.6972 4.00519 17.967 4.06983 17.271 3.90633ZM3.72933 9.09383C4.51052 9.36289 5.20008 9.84666 5.71891 10.4897C6.29074 11.2061 7.01885 11.7822 7.84756 12.174C8.67626 12.5658 9.5836 12.7628 10.5002 12.7501C11.7331 12.8374 12.9537 12.4571 13.9189 11.685C14.8841 10.9128 15.523 9.80546 15.7085 8.58342C15.3432 9.19462 14.7934 9.67418 14.1383 9.95309C13.4831 10.232 12.7564 10.2959 12.0627 10.1355C11.2828 9.85862 10.5943 9.37203 10.0731 8.72925C9.49658 8.02031 8.76678 7.45137 7.93861 7.06525C7.11044 6.67913 6.20548 6.4859 5.29183 6.50008C4.05888 6.41277 2.83827 6.79305 1.87309 7.5652C0.9079 8.33734 0.268957 9.4447 0.0834961 10.6668C0.442149 10.0482 0.990171 9.56143 1.64666 9.27821C2.30314 8.99498 3.0333 8.93034 3.72933 9.09383Z" fill="black"/>
             </svg>
             <p>Build with Tailwind</p>
@@ -254,6 +301,25 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        var modal = document.getElementById("myModal");
+        var backdrop = document.getElementById("myBackdrop");
+        var btn = document.getElementById("myBtn");
+        var closeBtn = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+        modal.style.display = "flex";
+        }
+        closeBtn.onclick = function() {
+        modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }else if (event.target == backdrop){
+                modal.style.display = "none";
+            }
+        }
     </script>
 </body>
 </html>
