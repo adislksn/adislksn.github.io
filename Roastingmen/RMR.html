@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/navbarFooter.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <div class="row w-100 justify-content-between ">
+                <a class="navbar-brand d-flex align-items-center col-2" href="#">
+                    <img src="./assets/Logo.png" class="logo" alt="">
+                    <div class="brand-name flex-row justify-content-center">
+                        <p class="m-0 p-0 main-text">Roastingmen</p>
+                        <p class="m-0 p-0 secondary-text ">Rock mass rating measurement</apan>
+                    </div>
+                </a>
+
+                <div class="dropdown-center btn-dropdown col-1 me-3">
+                    <button type="button" onclick="addActiveclass()" class="btn-navbar border-0 dropdown-toggle-split" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                        <div class="hamburger-menu" id="hamMenu">
+                            <div class="bar-top"></div>
+                            <div class="bar-middle"></div>
+                            <div class="bar-bottom"></div>
+                        </div>
+                    </button>
+                    <ul class="dropdown-menu border-0 item-dropdown w-50 justify-content-end" onclick="removeActive()" id="mobile-dropdown">
+                        <li class="dropdown-item">
+                            <a href="Beranda.html" class="nav-link">Beranda</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a href="artikel.html" class="nav-link">Artikel</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a href="peta.html" class="nav-link">Peta</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a href="#" class="nav-link">RMR</a>
+                        </li>
+                        <li class="dropdown-item ">
+                            <a href="prediksiPage.html" class="nav-link">Prediksi</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            
+            
+                <div class="navbar-list-item col-6 d-flex align-items-center" id="navbar4">
+                    <ul class="navbar-list my-0 justify-content-around ">
+                        <li class="list-item">
+                            <a href="Beranda.html" class="nav-link">Beranda</a>
+                        </li>
+                        <li class="list-item ">
+                            <a href="artikel.html" class="nav-link">Artikel</a>
+                        </li>
+                        <li class="list-item ">
+                            <a href="peta.html" class="nav-link">Peta</a>
+                        </li>
+                        <li class="list-item active">
+                            <a href="#" class="nav-link">RMR</a>
+                        </li>
+                        <li class="list-item ">
+                            <a href="prediksiPage.html" class="nav-link">Prediksi</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<div class="pt-5 mt-5">
+    <div class="container py-3">
+        <div class="row px-3">
+            <h1 class="fw-bold">RMR</h1>
+        </div>
+        <div class="row px-3">
+            <div class="col-md-6">
+                <p>
+                    Rock Mass Rating (RMR) merupakan metode klasifikasi massa batuan yang digunakan untuk mengetahui nilai ketahanan suatu massa batuan dengan memperhatikan 5 parameter yaitu kekuatan batuan, Rock Quality Designation (RQD), jarak antar kekar, kondisi kekar, kondisi air tanah (Bieniawski, 1989). 
+                </p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <a class="" href="">
+                    <button type="button" class="btn btn-primary p-3" style="font-size: 20px;">Coba Prediksi</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container py-3">
+        <h2 class="fw-bold px-3">Parameter RMR</h2>
+        <ol class="list-group-numbered text-black px-3">
+            <li class="list-group-item pt-3" style="font-size: 25px;">
+            Nilai kekuatan batuan
+            <p style="font-size: 18.5px; text-align: justify;">
+                Nilai kekuatan batuan didapatkan dari hasil pengujian menggunakan hammer test  (menggunakan pukulan palu) atau melalui uji kuat tekan uniaksial batuan (UCS).
+            </p>
+            </li>
+
+            <li class="list-group-item pt-3" style="font-size: 25px;">
+            Pembobotan Rock Quality Designation (RQD)
+            <p style="font-size: 18.5px; text-align: justify;">
+                Nilai RQD didapatkan dari data jumlah kekar pada lereng sesuai sepanjang scanline pada lokasi penelitian.
+            </p>
+            </li>
+
+            <li class="list-group-item pt-3" style="font-size: 25px;">
+            Jarak antar kekar
+            <p style="font-size: 18.5px; text-align: justify;">
+                Nilai ini diperoleh dari pengukuran jarak antar satu kekar dengan kekar lainnya sepanjang scanline pada lereng. 
+            </p>
+            </li>
+            
+            <li class="list-group-item pt-3" style="font-size: 25px;">
+            Kondisi kekar
+            <p style="font-size: 18.5px; text-align: justify;">
+                kondisi kekar didapatkan dari deskripsi dilapangan berupa panjang kekar, lebar bukaan kekar, kekasaran permukaan kekar, dan material pengisi di dalam kekar yang ada.
+            </p>
+            </li>
+
+            <li class="list-group-item pt-3" style="font-size: 25px;">
+            Kondisi air tanah
+            <p style="font-size: 18.5px; text-align: justify;">
+                kondisi ini dilihat langsung dilapangan dengan memperhatikan apakah kekarnya termasuk dalam kondisi basah, lembab, ataupun kering.
+            </p>
+            </li>
+
+            <li class="list-group-item pt-3" style="font-size: 25px;">
+            Tunnel
+            <p style="font-size: 18.5px; text-align: justify;">
+                Parameter yang digunakan dalam kondisi suatu massa batuan berbentuk lorong atau tunnel dimana memperhatikan efek dari arah ketidakselarasan strike dan dip.
+            </p>
+            </li>
+        </ol>
+    </div>
+
+    <div class="container py-3 text-black">
+        <h2 class="fw-bold px-3">Kegunaan Klasifikasi Rock Mass Rating (RMR)</h2>
+        <p class="px-3" style="font-size: 18.5px;">
+            Pengklasifikasian Rock Mass Rating (RMR) dalam bidang geologi teknik diperlukan untuk:
+        </p>
+        <ol class="list-group-numbered px-3" style="font-size: 18.5px;">
+            <li class="list-group-item">
+                Menentukan kelas massa batuan
+            </li>
+            <li class="list-group-item">
+                Menganalisis kestabilan lereng dan tunnel
+            </li>
+            <li class="list-group-item">
+                Merekomendasikan kestabilan suatu lereng
+            </li>
+        </ol>
+    </div>
+</div>
+<!-- footer -->
+<footer class="py-5 border-top bottom-0 footer">
+    <div class="container text-white">
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <div class="row">
+                    <p class="fw-normal text30s">
+                        Tentang Kami :
+                    </p>
+                </div>
+                <div class="row">
+                    <strong class="text30s">
+                        SMIAGI ITERA
+                    </strong>
+                    <p class="fw-normal text20s">
+                        Jl. Terusan Ryacudu, Way Huwi, Kec. Jati Agung, Kabupaten Lampung Selatan, Lampung 35365
+                    </p>
+                    <p class="text20s">
+                        +62 8132 0192
+                    </p>
+                </div>
+                <div class="row row-cols-auto">
+                    <div class="col">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img class="sosmed-footer" src="./assets/facebook.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img class="sosmed-footer" src="./assets/instagram.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <img class="sosmed-footer" src="./assets/linkedin.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="row pt-4">
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img class="logo-footer" src="./assets/logo-fgmi.png">
+                    </div>
+                    <div class="col p-0">
+                        <img class="logo-footer" src="./assets/logo-iagi.png">
+                    </div>
+                    <div class="col p-0">
+                        <img class="logo-footer" src="./assets/logo-ITERA.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- <script src="navbarFooter.js" type="text/javascript"></script> -->
+    <script>
+        var btn = document.getElementsByClassName("btn-navbar");
+        var element = document.getElementById("hamMenu");
+        
+        
+        btn.onclick = addActiveclass;
+        function addActiveclass() {
+            element.classList.toggle("btn-active");
+        }
+        var btnActive = document.querySelector("btn-active");
+        
+        function removeActive() {
+            element.classList.remove("btn-active");
+        }
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" 
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+   
+</body>
+</html>

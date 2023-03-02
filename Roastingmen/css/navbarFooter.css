@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --page-background-1: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #9FC1FF 100%);/*Background utama*/
+    --page-background-2: rgba(37, 75, 142, 1);/*Background footer*/
+    --card-1: rgba(152, 196, 228, 1);/*Card prediksi halaman*/
+    --table-background: rgba(223, 236, 255, 1);/*Table riwayat prediksi*/
+    --white: rgba(255, 255, 255, 1);/*Background navbar*/
+    --black: rgba(0, 0, 0, 1);/*warna font&*/
+    --blue: rgba(64, 128, 244, 1);/*warna font sama button*/
+    --font-family:"Poppins", "open sans";
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: var(--font-family) !important;
+    overflow-x: hidden;
+    background: var(--page-background-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 65px;
+    height: 65px;
+    margin-right: 1.2rem;
+}
+
+.main-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--blue);
+}
+.secondary-text{
+    font-size: 20px;
+    color: var(--blue);
+}
+
+li{
+    list-style: none;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 1rem;
+    font-size: 24px;
+}
+
+.list-item{
+    padding: 0 1rem;
+    color: var(--blue);
+}
+.active{
+    font-weight: bold;
+}
+.list-item a{
+    text-decoration: none;
+}
+
+.text-decoration-none{
+  text-decoration: none!important;
+}
+
+.btn-navbar{
+    background: none;
+    font-weight: bold;
+}
+
+.btn-dropdown{
+    display: none;
+}
+/* ham menu */
+
+.hamburger-menu {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: pointer;
+}
+.bar-top,
+.bar-middle,
+.bar-bottom {
+  height: 5px;
+  background: var(--blue);
+  border-radius: 5px;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 0.5s;
+}
+.btn-active .bar-top {
+  transform: rotate(45deg);
+}
+.btn-active .bar-middle {
+  transform:translateX(1rem);
+  opacity: 0;
+}
+.btn-active .bar-bottom {
+  transform: rotate(-45deg);
+}
+
+/* .item-dropdown{
+    display: flex;
+} */
+
+/* footer */
+.footer{
+    background: var(--page-background-2);
+}
+
+.sosmed-footer{
+    width: 34px;
+    height: 33px;
+}
+
+.logo-footer{
+    width: 165px;
+    height: 166.93px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .text30s,.text40s{
+        font-size: 25px;
+    }
+    .text20s{
+        font-size: 15px;
+    }
+    .logo-footer{
+        width: 140px;
+        height: 141.64px;
+    }
+}
+
+@media screen and (max-width:995px) {
+    /* .brand-name{
+        display: none;
+    } */
+    .main-text{
+        font-size: 23px;
+    }
+    .secondary-text{
+        font-size: 13px;
+    }
+    .btn-dropdown {
+        display: block;
+    }
+
+    #mobile-dropdown[data-bs-popper] {
+    --bs-position: end;
+    right: 0 /* rtl:ignore */;
+    left: auto /* rtl:ignore */;
+    }
+    .navbar-list-item{
+        display: none !important;
+    }
+
+    .logo-footer{
+        width: 120px;
+        height: 121.41px;
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+    .text30s,.text40s{
+        font-size: 20px;
+    }
+    .text20s{
+        font-size: 10px;
+    }
+    .jumbotron-text{
+        right: 5%;
+        left: 5%;
+        padding: 0 0 !important;
+        transform: translate(0%, -50%);
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+    }
+}

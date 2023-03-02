@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --page-background-1: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #9FC1FF 100%);/*Background utama*/
+    --page-background-2: rgba(37, 75, 142, 1);/*Background footer*/
+    --card-1: rgba(152, 196, 228, 1);/*Card prediksi halaman*/
+    --table-background: rgba(223, 236, 255, 1);/*Table riwayat prediksi*/
+    --white: rgba(255, 255, 255, 1);/*Background navbar*/
+    --black: rgba(0, 0, 0, 1);/*warna font&*/
+    --blue: rgba(64, 128, 244, 1);/*warna font sama button*/
+    --font-family:"Poppins", "open sans";
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: var(--font-family) !important;
+    overflow-x: hidden;
+    background: var(--page-background-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.judul-artikel{
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.gambar-artikel{
+    width: 560px;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.artikel-text{
+    text-align: justify;
+    padding: 0 8rem;
+    font-size: 18px;
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .judul-artikel{
+        font-size: 40px;
+    }
+
+    .gambar-artikel {
+        width: 400px;
+    }
+    .artikel-text{
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .gambar-artikel {
+        width: 300px;
+    }
+    .artikel-text{
+        padding: 0 7vw;
+    }
+}

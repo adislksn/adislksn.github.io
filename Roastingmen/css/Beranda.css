@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root{
+    --page-background-1: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(159, 193, 255) 100%);/*Background utama*/
+    --page-background-2: rgba(37, 75, 142, 1);/*Background footer*/
+    --card-1: rgba(152, 196, 228, 1);/*Card prediksi halaman*/
+    --table-background: rgba(223, 236, 255, 1);/*Table riwayat prediksi*/
+    --white: rgba(255, 255, 255, 1);/*Background navbar*/
+    --black: rgba(0, 0, 0, 1);/*warna font*/
+    --blue: rgba(64, 128, 244, 1);/*warna font sama button*/
+    --font-family:"Poppins", "open sans";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: var(--font-family) !important;
+    overflow-x: hidden;
+    background: var(--page-background-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.jumbotron-text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.shadow-text{
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text40s{
+    font-size: 40px;
+}
+
+.text30s{
+    font-size: 30px;
+}
+
+.text20s{
+    font-size: 20px;
+}
+
+.text15s{
+    font-size: 15px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.hover-card{
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.card-block{
+    transition:0.5s;
+    cursor:pointer;
+}
+
+.card-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title{
+    transition:1s;
+    cursor:pointer;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+
+.card::before, .card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+}
+
+.card::before {
+    transform-origin: left top;
+}
+
+.card::after {
+    transform-origin: right bottom;
+}
+
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+    transform: scale3d(1, 1, 1);
+}
+
+.hotline-img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.footer{
+    background: var(--page-background-2);
+}
+
+.sosmed-footer{
+    width: 34px;
+    height: 33px;
+}
+
+.logo-footer{
+    width: 165px;
+    height: 166.93px;
+}
+
+@media screen and (max-width:1200px) {
+    .text30s,.text40s{
+        font-size: 25px;
+    }
+    .text20s{
+        font-size: 15px;
+    }
+    .logo-footer{
+        width: 140px;
+        height: 141.64px;
+    }
+}
+
+@media screen and (max-width:995px) {
+    .logo-footer{
+        width: 120px;
+        height: 121.41px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .text30s,.text40s{
+        font-size: 20px;
+    }
+    .text20s{
+        font-size: 10px;
+    }
+    .jumbotron-text{
+        right: 5%;
+        left: 5%;
+        padding: 0 0 !important;
+        transform: translate(0%, -50%);
+        -webkit-transform: translate(0%, -50%);
+        -moz-transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%);
+        -o-transform: translate(0%, -50%);
+    }
+}

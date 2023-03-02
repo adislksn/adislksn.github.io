@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --page-background-1: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #9FC1FF 100%);/*Background utama*/
+    --page-background-2: rgba(37, 75, 142, 1);/*Background footer*/
+    --card-1: rgba(152, 196, 228, 1);/*Card prediksi halaman*/
+    --table-background: rgb(189, 215, 255, 1);/*Table riwayat prediksi*/
+    --table-background-2: rgba(223, 236, 255, 1);/*Table riwayat prediksi*/
+    --white: rgba(255, 255, 255, 1);/*Background navbar*/
+    --black: rgba(0, 0, 0, 1);/*warna font&*/
+    --blue: rgba(64, 128, 244, 1);/*warna font sama button*/
+    --font-family:"Poppins", "open sans";
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: var(--font-family) !important;
+    overflow-x: hidden;
+    background: var(--page-background-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.text-utama {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+tbody tr {
+    background-color: var(--white);
+}
+
+thead tr, tr:nth-child(even){
+    background-color: var(--table-background);
+}
+
+@media screen and (max-width:1200px) {
+    .text-utama {
+    font-size: 40px;
+    }
+}
+
