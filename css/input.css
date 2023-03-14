@@ -85,3 +85,48 @@
     .card-block:hover::before, .card-block:hover::after, .card-block:focus::before, .card-block:focus::after {
         transform: scale3d(1, 1, 1);
     }
+
+    /* QR-Code */
+    .qr-code-container .qr-code img{
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+    .qr-code-container .qr-code button{
+        width: 7em;
+        height: 2em;
+        margin: 0.5em;
+        background: rgb(103, 232, 249);
+        color: black;
+        border: none;
+        border-radius: 0.625em;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    .qr-code-container .qr-code button:hover{
+        color: black;
+    }
+
+    .qr-code-container .qr-code button:after{
+        content: "";
+        background: white;
+        position: absolute;
+        z-index: -1;
+        left: -20%;
+        right: -20%;
+        top: 0;
+        bottom: 0;
+        transform: skewX(-45deg) scale(0, 1);
+        transition: all 0.5s;
+    }
+
+    .qr-code-container .qr-code button:hover:after {
+        transform: skewX(-45deg) scale(1, 1);
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
