@@ -1486,10 +1486,8 @@ video {
 /* QR-Code */
 
 .qr-code-container .qr-code img{
-  width: 200px;
-  height: 200px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .qr-code-container .qr-code button{
@@ -1745,6 +1743,10 @@ video {
 @media not all and (min-width: 768px) {
   .max-md\:w-1\/2 {
     width: 50%;
+  }
+
+  .max-md\:w-4\/5 {
+    width: 80%;
   }
 
   .max-md\:py-10 {

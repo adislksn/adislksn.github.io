@@ -88,9 +88,8 @@
 
     /* QR-Code */
     .qr-code-container .qr-code img{
-        width: 200px;
-        height: 200px;
-        object-fit: contain;
+        max-width: 200px;
+        max-height: 200px;
     }
     .qr-code-container .qr-code button{
         width: 7em;
