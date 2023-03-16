@@ -43,7 +43,7 @@
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" />
 </head>
-<body class="bg-gray-800 overflow-hidden">
+<body class="bg-gray-800 overflow-x-hidden">
     <!-- Nav -->
     <header class="relative flex-col justify-center pt-7">
         <nav class="relative mx-14 max-sm:mx-3 flex flex-row items-center justify-between">
@@ -66,10 +66,15 @@
             <p class="text-cyan-300 text-5xl max-sm:text-4xl font-batuphat">QR Code Generator</p>
             <div class="text-cyan-100 pt-10 pb-2">Generate QRCode for anything!</div>
         </section>
+        
+        <!-- <section class="relative w-4/5 py-4 self-center">
+            <label class="cursor-pointer block w-full p-4 pl-10 text-sm border rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white shadow-md shadow-cyan-300 bg-opacity-75" for="file_input" >Upload file</label>
+            <input type="file" id="file_input" class="hidden" onchange="previewLogo()" />
+            <p class="mt-1 text-sm text-gray-500 dark:text-gray-300" >SVG, PNG, JPG or GIF (MAX. 2MB).</p>
+        </section> -->
         <section class="relative w-4/5 self-center">
             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <i class="fa-solid fa-qrcode w-5 h-5 text-gray-500 dark:text-gray-400"></i>
-                <!-- <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg> -->
             </div>
             <input class="block w-full p-4 pl-10 text-sm border rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white shadow-md shadow-cyan-300 bg-opacity-75" 
                 type="text" 
@@ -77,10 +82,10 @@
                 name="input_text" 
                 id="input_text" 
                 autocomplete="off">
-            <button class="group/btn button text-black absolute right-2.5 bottom-2.5 bg-cyan-300 hover:bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2" type="submit">
-                Generate
-                <i class="ml-2 fa-solid fa-rotate group-active/btn:animate-spin"></i>
-            </button>
+                <button class="group/btn button text-black absolute right-2.5 bottom-2.5 bg-cyan-300 hover:bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2" type="submit">
+                    Generate
+                    <i class="ml-2 fa-solid fa-rotate group-active/btn:animate-spin"></i>
+                </button>
         </section>
     </div>
     <!-- Copyright by Adislksn ©2023 adapted from https://github.com/murtuzaalisurti/qr -->
