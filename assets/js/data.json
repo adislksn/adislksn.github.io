@@ -1,0 +1,185 @@
+techStack = [
+    {
+        "name": "Tailwind",
+        "iconType": "svg",
+        "icon": "./assets/tailwinds.svg",
+        "link": "https://tailwindcss.com/"
+    },
+    {
+        "name": "HTML",
+        "iconType": "fa-brands",
+        "icon": "fa-html5",
+        "link": "https://drive.google.com/file/d/1m2Bm82afzUc3b3Qf-Bm8dWJAxlHMQQt8/view?usp=sharing"
+    },
+    {
+        "name": "CSS",
+        "iconType": "fa-brands",
+        "icon": "fa-css3-alt",
+        "link": "https://drive.google.com/file/d/1MaTWl5pg27l29WtfGqiulMb-8oPjnehD/view?usp=sharing"
+    },
+    {
+        "name": "PHP",
+        "iconType": "fa-brands",
+        "icon": "fa-php",
+        "link": ""
+    },
+    {
+        "name": "TS",
+        "iconType": "svg",
+        "icon": "./assets/typescript.svg",
+        "link": ""
+    },
+    {
+        "name": "JS",
+        "iconType": "fa-brands",
+        "icon": "fa-js",
+        "link": ""
+    },
+    {
+        "name": "Bootstrap",
+        "iconType": "fa-brands",
+        "icon": "fa-bootstrap",
+        "link": ""
+    },
+    {
+        "name": "Tailwind",
+        "iconType": "svg",
+        "icon": "./assets/tailwinds.svg",
+        "link": ""
+    },
+    {
+        "name": "Python",
+        "iconType": "fa-brands",
+        "icon": "fa-python",
+        "link": "https://drive.google.com/file/d/1f_3uF4sRGEImDiVBv1r4uz-FoaC418qA/view?usp=sharing"
+    },
+    {
+        "name": "GIT",
+        "iconType": "fa-brands",
+        "icon": "fa-git-alt",
+        "link": "https://learn.gitkraken.com/certificates/bn0lf70cgu"
+    },
+    {
+        "name": "Docker",
+        "iconType": "fa-brands",
+        "icon": "fa-docker",
+        "link": ""
+    },
+    {
+        "name": "Unity",
+        "iconType": "fa-brands",
+        "icon": "fa-unity",
+        "link": ""
+    },
+    {
+        "name": "NextJS",
+        "iconType": "svg",
+        "icon": "./assets/nextjs.svg",
+        "link": ""
+    },
+    {
+        "name": "React",
+        "iconType": "fa-brands",
+        "icon": "fa-react",
+        "link": ""
+    },
+    {
+        "name": "Laravel",
+        "iconType": "fa-brands",
+        "icon": "fa-laravel",
+        "link": ""
+    },
+    {
+        "name": "Node",
+        "iconType": "fa-brands",
+        "icon": "fa-node-js",
+        "link": ""
+    },
+    {
+        "name": "Django",
+        "iconType": "svg",
+        "icon": "./assets/django.svg",
+        "link": ""
+    },
+    {
+        "name": "Pyramid",
+        "iconType": "svg",
+        "icon": "./assets/pyramid.svg",
+        "link": ""
+    },
+    {
+        "name": "Figma",
+        "iconType": "fa-brands",
+        "icon": "fa-figma",
+        "link": ""
+    },
+    {
+        "name": "Cypress",
+        "iconType": "svg",
+        "icon": "./assets/cypress.svg",
+        "link": ""
+    },
+    {
+        "name": "Arduino",
+        "iconType": "svg",
+        "icon": "./assets/arduino.svg",
+        "link": ""
+    }
+],
+
+porfolioData = [
+    {
+        "title": "Web Pemira 2022",
+        "link": "https://pemiraitera.my.id",
+        "image": "./assets/pemira.png",
+        "desc": "Web Pemira 2022",
+    },
+    {
+        "title": "Front-End PPLK 2022",
+        "link": "https://pplk2022.com",
+        "image": "./assets/PPLK.png",
+        "desc": "Front-End PPLK 2022"
+    },
+    {
+        "title": "Game Co-Programmer",
+        "link": "https://ardhames.itch.io/itera-adventure-2",
+        "image": "./assets/itera-adventure.jpeg",
+        "desc": "Game Co-Programmer"
+    },
+    {
+        "title": "Website KM ITERA",
+        "link": "https://km-itera.my.id",
+        "image": "./assets/km-itera.png",
+        "desc": "Full-Stack Developer"
+    },
+    {
+        "title": "TOP 200 IDT by BUMN",
+        "link": "https://www.figma.com/proto/sHc3sqPtuJ7BrGpKigK2Is/bangun.id-v-2?node-id=666%3A1298&scaling=scale-down&page-id=527%3A7&starting-point-node-id=666%3A1298",
+        "image": "./assets/Bangun-id.png",
+        "desc": "TOP 200 IDT by BUMN"
+    },
+    {
+        "title": "Preslab Mockup SKPL",
+        "link": "https://www.figma.com/proto/eKu2A3gwyt7R9eGQ5gaIwt/PresLab-SKPL?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2",
+        "image": "./assets/PresLab.png",
+        "desc": "Preslab Mockup SKPL"
+    },
+    {
+        "title": "Finally Mobile Apps",
+        "link": "",
+        "image": "./assets/Finally.png",
+        "desc": "Finally Mobile Apps"
+    },
+    {
+        "title": "QR-Code Generator",
+        "link": "https://adislksn.github.io/qrcode/",
+        "image": "./assets/qic-gen.png",
+        "desc": "QR-Code Generator"
+    },
+    {
+        "title": "Custom Linktree",
+        "link": "https://github.com/KM-ITERA/linktree",
+        "image": "./assets/km.png",
+        "desc": "Custom Linktree"
+    },
+]
