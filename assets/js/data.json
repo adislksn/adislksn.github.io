@@ -1,11 +1,5 @@
 techStack = [
     {
-        "name": "Tailwind",
-        "iconType": "svg",
-        "icon": "./assets/tailwinds.svg",
-        "link": "https://tailwindcss.com/"
-    },
-    {
         "name": "HTML",
         "iconType": "fa-brands",
         "icon": "fa-html5",
@@ -18,34 +12,34 @@ techStack = [
         "link": "https://drive.google.com/file/d/1MaTWl5pg27l29WtfGqiulMb-8oPjnehD/view?usp=sharing"
     },
     {
-        "name": "PHP",
-        "iconType": "fa-brands",
-        "icon": "fa-php",
-        "link": ""
-    },
-    {
         "name": "TS",
         "iconType": "svg",
         "icon": "./assets/typescript.svg",
-        "link": ""
+        "link": "https://www.typescriptlang.org/"
     },
     {
         "name": "JS",
         "iconType": "fa-brands",
         "icon": "fa-js",
-        "link": ""
+        "link": "https://www.javascript.com/"
+    },
+    {
+        "name": "PHP",
+        "iconType": "fa-brands",
+        "icon": "fa-php",
+        "link": "https://www.php.net/"
     },
     {
         "name": "Bootstrap",
         "iconType": "fa-brands",
         "icon": "fa-bootstrap",
-        "link": ""
+        "link": "https://getbootstrap.com/"
     },
     {
         "name": "Tailwind",
         "iconType": "svg",
         "icon": "./assets/tailwinds.svg",
-        "link": ""
+        "link": "https://tailwindcss.com/"
     },
     {
         "name": "Python",
@@ -63,71 +57,89 @@ techStack = [
         "name": "Docker",
         "iconType": "fa-brands",
         "icon": "fa-docker",
-        "link": ""
+        "link": "https://www.docker.com/"
     },
     {
         "name": "Unity",
         "iconType": "fa-brands",
         "icon": "fa-unity",
-        "link": ""
+        "link": "https://unity.com/"
     },
     {
         "name": "NextJS",
         "iconType": "svg",
         "icon": "./assets/nextjs.svg",
-        "link": ""
+        "link": "https://nextjs.org/"
     },
     {
         "name": "React",
         "iconType": "fa-brands",
         "icon": "fa-react",
-        "link": ""
+        "link": "https://react.dev/"
     },
     {
         "name": "Laravel",
         "iconType": "fa-brands",
         "icon": "fa-laravel",
-        "link": ""
+        "link": "https://laravel.com/"
     },
     {
         "name": "Node",
         "iconType": "fa-brands",
         "icon": "fa-node-js",
-        "link": ""
+        "link": "https://expressjs.com/"
     },
     {
         "name": "Django",
         "iconType": "svg",
         "icon": "./assets/django.svg",
-        "link": ""
+        "link": "https://www.djangoproject.com/"
     },
     {
         "name": "Pyramid",
         "iconType": "svg",
         "icon": "./assets/pyramid.svg",
-        "link": ""
+        "link": "https://trypyramid.com/"
     },
     {
         "name": "Figma",
         "iconType": "fa-brands",
         "icon": "fa-figma",
-        "link": ""
+        "link": "https://www.figma.com/"
     },
     {
         "name": "Cypress",
         "iconType": "svg",
         "icon": "./assets/cypress.svg",
-        "link": ""
+        "link": "https://www.cypress.io/"
     },
     {
         "name": "Arduino",
         "iconType": "svg",
         "icon": "./assets/arduino.svg",
-        "link": ""
+        "link": "https://www.arduino.cc/"
     }
 ],
 
 porfolioData = [
+    {
+        "title": "Tryout Web",
+        "link": "https://project-try-out-fe.vercel.app/",
+        "image": "./assets/tryout.png",
+        "desc": "Web Tryout",
+    },
+    {
+        "title": "Web Rental Mobil",
+        "link": "https://gearental.com/",
+        "image": "./assets/gearental.png",
+        "desc": "Web Gea Rental Car",
+    },
+    {
+        "title": "Game Co-Programmer",
+        "link": "https://ardhames.itch.io/itera-adventure-2",
+        "image": "./assets/itera-adventure.jpeg",
+        "desc": "Game Co-Programmer"
+    },
     {
         "title": "Web Pemira 2022",
         "link": "https://pemiraitera.my.id",
@@ -139,12 +151,6 @@ porfolioData = [
         "link": "https://pplk2022.com",
         "image": "./assets/PPLK.png",
         "desc": "Front-End PPLK 2022"
-    },
-    {
-        "title": "Game Co-Programmer",
-        "link": "https://ardhames.itch.io/itera-adventure-2",
-        "image": "./assets/itera-adventure.jpeg",
-        "desc": "Game Co-Programmer"
     },
     {
         "title": "Website KM ITERA",
