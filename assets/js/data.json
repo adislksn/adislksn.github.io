@@ -124,7 +124,7 @@ techStack = [
 porfolioData = [
     {
         "title": "Tryout Web",
-        "link": "https://project-try-out-fe.vercel.app/",
+        "link": "https://staging-fe.adspride.com",
         "image": "./assets/tryout.png",
         "desc": "Web Tryout",
     },
